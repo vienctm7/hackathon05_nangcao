@@ -1,0 +1,55 @@
+.form-input {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .form-input input[type="text"],
+  .form-input select {
+    padding: 6px 12px;
+    margin-right: 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-input input[type="date"] {
+    padding: 6px 12px;
+    margin-right: 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-input button {
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    margin-left: 12px;
+    cursor: pointer;
+  }
+  
+  .table-infor {
+    margin-top: 24px;
+    overflow-x: auto;
+  }
+  
+  .table-infor table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table-infor th,
+  .table-infor td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .table-infor th {
+    background-color:blueviolet;
+    color: white;
+  }
+  
+  .table-infor tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
